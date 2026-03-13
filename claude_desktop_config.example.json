@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "code-navigator": {
+      "command": "node",
+      "args": ["/FULL/PATH/TO/code-navigator-mcp/build/index.js"]
+    }
+  }
+}
