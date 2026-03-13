@@ -206,8 +206,12 @@ If you use Claude Code (the CLI tool), add to your `~/.claude.json`:
 {
   "mcpServers": {
     "code-navigator": {
-      "command": "node",
-      "args": ["/FULL/PATH/TO/code-navigator-mcp/build/index.js"]
+    "command": "cmd.exe",
+      "args": [
+        "/c",
+        "node",
+        ""/FULL/PATH/TO/code-navigator-mcp/build/index.js""
+      ]
     }
   }
 }
